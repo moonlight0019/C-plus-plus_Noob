@@ -24,8 +24,10 @@ int main(int argc, char* argv[])
 
     #ifdef USE_MYMATH
         const double outputValue = mysqrt(inputValue);
+        std::cout << "USE_MYMATH is defined, Now use mysqrt." << std::endl;
     #else
         const double outputValue = sqrt(inputValue);
+        std::cout << "USE_MYMATH is not defined, Now use sqrt." << std::endl;
     #endif
     
     std::cout << "The square root of " << inputValue

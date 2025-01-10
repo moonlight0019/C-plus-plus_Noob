@@ -113,8 +113,7 @@ CMakeFiles/Tutorial.dir/tutorial.cpp.obj: E:/study/C++/C-plus-plus_Noob/CMake_Le
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc \
-  TutorialConfig.h \
-  E:/study/C++/C-plus-plus_Noob/CMake_Learning/MathFunctions/MathFunctions.h
+  TutorialConfig.h
 
 
 E:/study/C++/C-plus-plus_Noob/CMake_Learning/tutorial.cpp:
@@ -330,5 +329,3 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc:
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc:
 
 TutorialConfig.h:
-
-E:/study/C++/C-plus-plus_Noob/CMake_Learning/MathFunctions/MathFunctions.h:

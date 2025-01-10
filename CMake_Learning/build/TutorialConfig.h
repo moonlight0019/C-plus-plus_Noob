@@ -3,6 +3,6 @@
 #define Tutorial_VERSION_MINOR 0
 #define Tutorial_VERSION_PATCH 2
 
-#define TIMESTAMP 20250110-134031
+#define TIMESTAMP 20250110-140112
 // TutorialConfig.h.in
-/* #undef USE_MYMATH */
+#define USE_MYMATH

@@ -102,4 +102,5 @@ CMakeFiles/Tutorial.dir/tutorial.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- E:/study/C++/C-plus-plus_Noob/CMake_Learning/build/TutorialConfig.h
+ E:/study/C++/C-plus-plus_Noob/CMake_Learning/build/TutorialConfig.h \
+ E:/study/C++/C-plus-plus_Noob/CMake_Learning/MathFunctions/MathFunctions.h
