@@ -4,3 +4,5 @@
 #define Tutorial_VERSION_PATCH @PROJECT_VERSION_PATCH@
 
 #define TIMESTAMP @COMPILE_TIME@
+// TutorialConfig.h.in
+#cmakedefine USE_MYMATH

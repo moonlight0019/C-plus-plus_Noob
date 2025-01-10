@@ -21,8 +21,26 @@ message(STATUS "Compile time: ${COMPILE_TIME}")
 # 将版本号传递给源代码
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
-# 添加 MathFunctions 库
-add_subdirectory(MathFunctions)
+
+# =======================================添加MathFunctions库=======================================
+# 1、直接添加 MathFunctions 库
+# add_subdirectory(MathFunctions)
+
+# 2、检查选项USE_MYMATH的值，根据结果判断是否构建并链接MathFunctions库（经典方法）
+
+# 检查是否定义了USE_MYMATH，如果定义了就添加MathFunctions库
+# 通过option()函数添加一个USE_MYMATH选项，默认为ON
+option(USE_MYMATH "Use tutorial provided math implementation" ON)
+
+if(USE_MYMATH)
+  add_subdirectory(MathFunctions)
+  # APPEND表示将元素MathFunctions追加到列表EXTRA_LIBS中
+  # EXTRA_LIBS存储MathFunctions库，EXTRA_INCLUDES存储MathFunctions头文件。
+  list(APPEND EXTRA_LIBS MathFunctions)
+  list(APPEND EXTRA_INCLUDES ${PROJECT_SOURCE_DIR}/MathFunctions)
+endif()
+
+# 3、检查选项USE_MYMATH的值，根据结果判断是否构建并链接MathFunctions库（现代方法）
 
 # 添加项目所需源文件，${PROJECT_NAME}是项目名
 add_executable(${PROJECT_NAME} ${SRC_LIST})
