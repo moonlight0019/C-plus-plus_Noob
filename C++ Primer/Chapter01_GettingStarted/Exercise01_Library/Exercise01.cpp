@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Exercise01_Library.h"
 using namespace std;
 
 void ex_08(){
@@ -73,15 +74,3 @@ void ex_16(){
     std::cout << "=============================================================" << std::endl;
 }
 
-
-
-int main(){
-    
-    // ex_08();
-    // ex_09();
-    // ex_10();
-    // ex_11();
-    ex_16();
-
-    return 0;
-}

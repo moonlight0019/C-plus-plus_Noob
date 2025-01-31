@@ -1,0 +1,8 @@
+// the configured options and settings for Tutorial
+#define Exercise01_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define Exercise01_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define Exercise01_VERSION_PATCH @PROJECT_VERSION_PATCH@
+
+#define TIMESTAMP @COMPILE_TIME@
+// TutorialConfig.h.in
+#cmakedefine USE_MYMATH

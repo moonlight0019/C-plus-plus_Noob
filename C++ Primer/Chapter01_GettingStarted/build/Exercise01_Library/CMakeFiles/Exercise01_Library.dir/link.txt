@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libExercise01_Library.a CMakeFiles/Exercise01_Library.dir/Exercise01.cpp.obj
+C:\MinGW\bin\ranlib.exe libExercise01_Library.a
